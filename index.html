@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">Library System</a>
+        </div>
+        <div class="functions">
+            <a href = "#books">Books</a>
+            <a href = "#register">Register</a>
+            <a href = #>Contact Us</a>
+            <a href = #>Logout</a>
+        </div>        
+    </nav>
+
+    <br>
+    <div id="books">
+        <h2>Books</h2>
+        <table border="1" class="bookstable">
+            <thead>
+                <td>Book ID</td>
+                <td>Title</td>
+                <td>Author</td>
+                <td>Genre</td>
+                <td>Availability</td>
+            </thead>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="https://en.wikipedia.org/wiki/The_Alchemist_(novel)" target="_blank">The Alchemist</a>
+                    <table border="1" id="small-table">
+                        <tr><td>Publication Date:2000</td></tr>
+                        <tr><td>Page Count:250</td></tr>
+                        <tr><td>ISBN:123-4567128891</td></tr>
+                    </table>
+                </td>
+                <td>Paulo Coelho</td>
+                <td>Genre 1</td>
+                <td>Available</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>
+                    <a href="https://en.wikipedia.org/wiki/The_Great_Gatsby" target="_blank">The Great Gatsby</a>
+                    <table border="1" id="small-table">
+                        <tr><td>Publication Date:2000</td></tr>
+                        <tr><td>Page Count:250</td></tr>
+                        <tr><td>ISBN:123-4567128891</td></tr>
+                    </table>
+                </td>
+                <td>F. Scott Fitzgerald</td>
+                <td>Genre 2</td>
+                <td>Not Available</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>
+                    <a href="https://en.wikipedia.org/wiki/The_Silent_Patient" target="_blank">The Silent Patient</a>
+                    <table border="1" id="small-table">
+                        <tr><td>Publication Date:2000</td></tr>
+                        <tr><td>Page Count:250</td></tr>
+                        <tr><td>ISBN:123-4567128891</td></tr>
+                    </table>
+                </td>
+                <td>Alex Michaelides</td>
+                <td>Genre 3</td>
+                <td>Available</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>
+                    <a href="https://en.wikipedia.org/wiki/The_Hunger_Games_(novel)" target="_blank">The Hunger Games</a>
+                    <table border="1" id="small-table">
+                        <tr><td>Publication Date:2000</td></tr>
+                        <tr><td>Page Count:250</td></tr>
+                        <tr><td>ISBN:123-4567128891</td></tr>
+                    </table>
+                </td>
+                <td>Suzanne Collins</td>
+                <td>Genre 4</td>
+                <td>Available</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>
+                    <a href="https://en.wikipedia.org/wiki/The_Da_Vinci_Code" target="_blank">The Da Vinci Code</a>
+                    <table border="1" id="small-table">
+                        <tr><td>Publication Date:2000</td></tr>
+                        <tr><td>Page Count:250</td></tr>
+                        <tr><td>ISBN:123-4567128891</td></tr>
+                    </table>
+                </td>
+                <td>Dan Brown</td>
+                <td>Genre 5</td>
+                <td>Available</td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+
+    <div id="register">
+        <h2>Register</h2>
+        <form>
+            <label for="first-name">First Name:</label>
+            <input type="text" required id="first-name">
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" required id = "last-name">
+
+            <label for="dob">Date Of Birth:</label>
+            <input type= "date" required id = "dob">
+
+            <label for="age">Age:</label>
+            <input type="number" required min="5" id="age">
+
+            <label for="mail">Email:</label>
+            <input type="email" required id="mail">
+
+            <label for="pass">Password:</label>
+            <input type="password" required id="pass">
+
+            <label for="confpass">Confirm Password:</label>
+            <input type="password" required id="confpass">
+
+            <br>
+            <button type="submit" id="submitbutton">Submit</button>
+
+        </form>
+    </div>
+
+    <br>
+
+</body>
+</html>
